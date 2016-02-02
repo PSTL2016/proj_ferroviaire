@@ -1,0 +1,8 @@
+canton :
+	[?A-Z]
+plan :
+	'(' canton (',' canton)* ')'
+trajet :
+	plan[1-9]*
+	
+
